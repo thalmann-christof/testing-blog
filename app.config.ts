@@ -4,7 +4,7 @@ const config: ExpoConfig = {
   name: "Tet Blog",
   slug: "test-blog",
   scheme: "test-blog",
-  owner: "test-blog",
+  owner: "christofth",
   version: "0.1",
   extra: {
     eas: {
