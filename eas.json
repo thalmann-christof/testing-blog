@@ -3,22 +3,16 @@
     "version": ">= 3.8.1"
   },
   "build": {
-    "development": {
-      "developmentClient": true,
+    "development-sim": {
       "distribution": "internal",
       "ios": {
-        "resourceClass": "m-medium"
-      }
-    },
-    "preview": {
-      "distribution": "internal",
-      "ios": {
-        "resourceClass": "m-medium"
-      }
-    },
-    "production": {
-      "ios": {
-        "resourceClass": "m-medium"
+        "simulator": true,
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "cache": {
+          "key": "1674223825"
+        }
       }
     }
   },
