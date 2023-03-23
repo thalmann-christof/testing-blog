@@ -1,9 +1,9 @@
 import { ExpoConfig } from "@expo/config";
 
 const config: ExpoConfig = {
-  name: "Tet Blog",
-  slug: "test-blog",
-  scheme: "test-blog",
+  name: "Testing Blog",
+  slug: "testing-blog",
+  scheme: "testing-blog",
   owner: "christofth",
   version: "0.1",
   extra: {
@@ -12,10 +12,10 @@ const config: ExpoConfig = {
     },
   },
   android: {
-    package: "com.testBlog.app",
+    package: "com.testingBlog.app",
   },
   ios: {
-    bundleIdentifier: "com.testBlog.app",
+    bundleIdentifier: "com.testingBlog.app",
   },
 };
 

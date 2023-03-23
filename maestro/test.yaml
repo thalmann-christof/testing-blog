@@ -1,4 +1,4 @@
-appId: com.testBlog.app
+appId: com.testingBlog.app
 ---
 - launchApp:
     clearState: true
