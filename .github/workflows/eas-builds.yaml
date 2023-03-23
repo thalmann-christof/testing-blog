@@ -17,3 +17,4 @@ jobs:
         with:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
           platform: all
+          profile: development-sim
